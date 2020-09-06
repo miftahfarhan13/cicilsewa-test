@@ -62,29 +62,85 @@
     <div class="container">
         <div class="row">
             <div class="col-sm">
-                <div class="card" style="width: 21rem;  margin-left:auto; margin-right:auto" data-aos="fade-right">
-                    <img src="img/office3.jpg" style="height: 300px;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">JAKARTA</h5>
-                        <p class="card-text">From IDR 150.000/day</p>
+                <div class="card mb-3" onclick="myFunction()" style=" width: 21rem; margin-left:auto; margin-right:auto"
+                    data-aos="fade-right">
+                    <div class="wrapper">
+                        <img src="img/office3.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">JAKARTA</h5>
+                            <p class="card-text">From IDR 150.000/day</p>
+                        </div>
+                        <div class="overlay">
+                            <div class="content">
+                                <h5>JAKARTA</h5>
+                                <p>From IDR 150.000/day</p>
+                                <div class="content-button">
+                                    <div class="row">
+                                        <p>Book Now</p>
+                                        <svg viewBox="0 0 16 16" class="bi bi-arrow-right" fill="white"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm">
-                <div class="card" style="width: 21rem;  margin-left:auto; margin-right:auto" data-aos="fade-bottom">
-                    <img src="img/office2.JPG" style="height: 300px;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">BANDUNG</h5>
-                        <p class="card-text">From IDR 150.000/day</p>
+                <div class="card mb-3" style="width: 21rem;  margin-left:auto; margin-right:auto"
+                    data-aos="fade-bottom">
+                    <div class="wrapper">
+                        <img src="img/office2.JPG" style="height: 300px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BANDUNG</h5>
+                            <p class="card-text">From IDR 150.000/day</p>
+                        </div>
+                        <div class="overlay">
+                            <div class="content">
+                                <h5>BANDUNG</h5>
+                                <p>From IDR 150.000/day</p>
+                                <div class="content-button">
+                                    <div class="row">
+                                        <p>Book Now</p>
+                                        <svg viewBox="0 0 16 16" class="bi bi-arrow-right" fill="white"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm">
-                <div class="card" style="width: 21rem; margin-left:auto; margin-right:auto" data-aos="fade-left">
-                    <img src="img/office3.jpg" style="height: 300px;" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">SURABAYA</h5>
-                        <p class="card-text">From IDR 150.000/day</p>
+                <div class="card mb-3" style="width: 21rem;  margin-left:auto; margin-right:auto" data-aos="fade-left">
+                    <div class="wrapper">
+                        <img src="img/office3.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SURABAYA</h5>
+                            <p class="card-text">From IDR 150.000/day</p>
+                        </div>
+                        <div class="overlay">
+                            <div class="content">
+                                <h5>SURABAYA</h5>
+                                <p>From IDR 150.000/day</p>
+                                <div class="content-button">
+                                    <div class="row">
+                                        <p>Book Now</p>
+                                        <svg viewBox="0 0 16 16" class="bi bi-arrow-right" fill="white"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd"
+                                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -212,7 +268,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4 mb-4">
-                                        <div class="card" style="width: 350px; margin: auto;">
+                                        <div class="card card-news" style="width: 350px; margin: auto;">
                                             <img src="img/office3.jpg" class="card-img-top">
                                             <div class="card-body">
                                                 <h4 class="card-title">Why you should use skin masks ?</h4>
@@ -226,7 +282,7 @@
 
                                     </div>
                                     <div class="col-sm-12 col-lg-4 mb-4">
-                                        <div class="card" style="width: 350px; margin: auto;">
+                                        <div class="card card-news" style="width: 350px; margin: auto;">
                                             <img src="img/office2.JPG" class="card-img-top">
                                             <div class="card-body">
                                                 <h4 class="card-title">Why you should use skin masks ?</h4>
@@ -240,7 +296,7 @@
 
                                     </div>
                                     <div class="col-sm-12 col-lg-4 mb-4">
-                                        <div class="card" style="width: 350px; margin: auto;">
+                                        <div class="card card-news" style="width: 350px; margin: auto;">
                                             <img src="img/office3.jpg" class="card-img-top">
                                             <div class="card-body">
                                                 <h4 class="card-title">Why you should use skin masks ?</h4>
@@ -302,7 +358,7 @@
 </body>
 
 <footer>
-    <div class="jumbotron jumbotron-fluid vertical-center" id="jumbotron-footer" style="margin-bottom: -1px;">
+    <div class="jumbotron jumbotron-fluid vertical-center" id="jumbotron-footer">
         <div class="container" id="jumbotron-container">
             <h1 class="display-5 mb-4">Looking For Great Deals?</h1>
             <div class="input-group center" style="width: 450px; margin-left:auto; margin-right:auto">
@@ -325,10 +381,10 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item" style="background-color: #055B66;">
                         <div class="footer-menu">
-                            <a href="#" >About Us</a>
-                            <a href="#" >Team</a>
-                            <a href="#" >Product</a>
-                            <a href="#" >Testimonial</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Team</a>
+                            <a href="#">Product</a>
+                            <a href="#">Testimonial</a>
                             <a href="#" id="contact-footer">Contact +62 9981823412349</a>
                         </div>
 
@@ -355,6 +411,10 @@
         $(".card").hover(
             function () {
                 $(this).addClass('shadow-lg').css('cursor', 'pointer');
+
+                function myFunction() {
+                    window.location.replace("/pagetwo");
+                }
             },
             function () {
                 $(this).removeClass('shadow-lg');
@@ -378,6 +438,10 @@
             duration: 1000,
         });
     });
+
+    function myFunction() {
+        window.location.replace("/pagetwo");
+    }
 
 </script>
 

@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/pagetwo', function () {
+    return view('pagetwo');
+});
+
+// Route::get('/pagetwo', 'PageTwoController@index');
