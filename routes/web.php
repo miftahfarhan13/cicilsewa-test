@@ -20,4 +20,8 @@ Route::get('/pagetwo', function () {
     return view('pagetwo');
 });
 
+Route::get('/pagethree', function () {
+    return view('pagethree');
+});
+
 // Route::get('/pagetwo', 'PageTwoController@index');

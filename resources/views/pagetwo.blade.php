@@ -67,7 +67,7 @@
             the 1500s</p>
         <div class="row" style="margin-top: 80px;">
             <div class="col-sm">
-                <div class="card mb-4" style="width: 21rem;  margin-left:auto; margin-right:auto" data-aos="fade-right">
+                <div class="card mb-4" onclick="myFunction()" style="width: 21rem;  margin-left:auto; margin-right:auto" data-aos="fade-right">
                     <div class="wrapper">
                         <img src="img/office3.jpg" style="height: 300px;" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -285,6 +285,26 @@
 </footer>
 
 <script>
+    $(document).ready(function () {
+        // executes when HTML-Document is loaded and DOM is ready
+        console.log("document is ready");
+        $(".card").hover(
+            function () {
+                $(this).addClass('shadow-lg').css('cursor', 'pointer');
+
+            },
+            function () {
+                $(this).removeClass('shadow-lg');
+            }
+        );
+
+        AOS.init({
+            easing: 'ease',
+            duration: 1000,
+        });
+        // document ready  
+    });
+
     $(window).scroll(function () {
         $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
     });
@@ -295,6 +315,10 @@
             duration: 1000,
         });
     });
+
+    function myFunction() {
+        window.location.replace("/pagethree");
+    }
 
 </script>
 
